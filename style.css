@@ -22,7 +22,7 @@ header {
   font-size: 1.2rem;
   justify-content: space-between;
   align-items: center;
-  flex: 1 1 30rem;
+  flex: 1 1 10rem;
   background-color: rgb(185, 207, 253);
 }
 h1 {
@@ -105,4 +105,24 @@ button:hover {
 .form-submit-btn {
   padding: 1rem 2rem;
   margin-top: 0.5rem;
+}
+
+.hypo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  width: 90vh;
+  margin: auto;
+  height: 70vh;
+}
+.hypo-container input {
+  border: rgb(0, 153, 255) solid 2px;
+  border-radius: 10px;
+  padding: 0.8rem 2rem;
+  margin-top: 1rem;
+}
+#calc-hypotenuse {
+  padding: 1rem;
 }

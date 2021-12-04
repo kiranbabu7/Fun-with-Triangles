@@ -19,22 +19,18 @@
         </ul>
       </nav>
     </header>
-    <div class="hero">
-      <div class="center">
-        <h1>Angles of Triangles</h1>
-        <p>Checks if Angles Form Triangle or not</p>
-      </div>
-      <div class="container">
-        <label for="angle-input">Angle 1</label>
-        <input class="angle-input" type="text" />
-        <label for="angle-input">Angle 2</label>
-        <input class="angle-input" type="text" />
-        <label for="angle-input">Angle 3</label>
-        <input class="angle-input" type="text" />
-        <button id="Check-triangle">Check Angles</button>
-        <div class="output"></div>
-      </div>
+    <h1 class="center">Calculate Hypotenuse of a Triangle</h1>
+    <div class="hypo-container">
+      <label for="a">Enter base value (a) =</label>
+      <input type="text" id="a" />
+      <label for="b">Enter base value (a) =</label>
+      <input type="text" id="b" />
+      <button id="calc-hypotenuse">Caluculate Hypotenuse</button>
+      <h3 class="center">Hypotenuse formula</h3>
+      <h3 class="center">√(base² + height²)</h3>
+      <h2 class="output"></h2>
     </div>
-    <script src="/app.js"></script>
+
+    <script src="/hypotenuse.js"></script>
   </body>
 </html>
