@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  height: 10vh;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 1 30rem;
+  background-color: rgb(185, 207, 253);
+}
+h1 {
+  flex-grow: 1;
+}
+nav {
+  flex: 1;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 30vh;
+  margin: auto;
+}
+
+.container label {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.container input {
+  border: rgb(0, 153, 255) solid 2px;
+  border-radius: 10px;
+  padding: 0.8rem 2rem;
+  margin-top: 1rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: rgb(118, 193, 255);
+  border: none;
+  border-radius: 20px;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(59, 148, 221);
+}
+.output {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+/* Quiz page */
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.quiz-choice {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-submit-btn {
+  padding: 1rem 2rem;
+  margin-top: 0.5rem;
+}
